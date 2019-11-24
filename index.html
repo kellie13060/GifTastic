@@ -17,7 +17,8 @@
             <h1 class="display-4">GifTastic</h1>
             <p class="lead">Click the buttons below to see 10 gifs from that TV series</p>
             <hr class="my-4">
-            <a class="btn btn-primary btn-lg" data-series="Brooklyn99" role="button">Brooklyn99</a>
+              <div id=buttonsGoHere></div>
+            <!-- <a class="btn btn-primary btn-lg" data-series="Brooklyn99" role="button">Brooklyn99</a>
             <a class="btn btn-primary btn-lg" data-series="Arrested Devlopment" role="button">Arrested Devlopment</a>
             <a class="btn btn-primary btn-lg" data-series="VEEP" role="button">VEEP</a>
             <a class="btn btn-primary btn-lg" data-series="The Good Place" role="button">The Good Place</a>
@@ -26,14 +27,14 @@
             <a class="btn btn-primary btn-lg" data-series="New Girl" role="button">New Girl</a>
             <a class="btn btn-primary btn-lg" data-series="Rick and Morty" role="button">Rick and Morty</a>
             <a class="btn btn-primary btn-lg" data-series="Parks and Rec" role="button">Parks and Rec</a>
-            <a class="btn btn-primary btn-lg" data-series="Seinfeld" role="button">Seinfeld</a>
+            <a class="btn btn-primary btn-lg" data-series="Seinfeld" role="button">Seinfeld</a> -->
             <hr class="my-4">
-            <p>You can even add your own tv series!</p>
+            <label>You can even add your own tv series!</label>
             <form>
                 <div class="form-group">
-                    <input type="tv" class="form-control" id="exampleInputTv1" placeholder="TV Series">
+                    <input type="tv" class="form-control" id="series-input" placeholder="TV Series">
                 </div>
-                <button type="submit" class="btn btn-primary">Add</button>
+                <button type="submit" id="add-button">Add</button>
             </form>
         </div>
         <div id="seriesGifs"></div>

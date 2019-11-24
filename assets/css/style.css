@@ -1,4 +1,12 @@
 
+body {
+    background-image: url(../images/film-wallpaper.jpg);
+    background-repeat: repeat;
+    height: 100%;
+    color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .jumbotron {
     background-color: #244857;
     color: cornsilk;
@@ -30,4 +38,13 @@
 
 img {
     margin: 10px;
+}
+
+#add-button {
+    background-color: #6E2D28;
+    color: cornsilk;
+    border: black solid 1px;
+    padding: 7px;
+    margin: 3px;
+    font-size: small;
 }
